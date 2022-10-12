@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-Regular.woff2') format('woff2'),
+        url('Baloo2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

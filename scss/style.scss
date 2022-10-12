@@ -1,0 +1,107 @@
+// Inter
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Bold.woff2') format('woff2'),
+    url('../fonts/Inter/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
+    url('../fonts/Inter/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Medium.woff2') format('woff2'),
+    url('../fonts/Inter/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Poppins
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+    url('../fonts/poppins/Poppins-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+    url('../fonts/poppins/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Roboto
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/roboto/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/roboto/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Baloo
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo_2/Baloo2-Regular.woff2') format('woff2'),
+    url('../fonts/Baloo_2/Baloo2-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', 'Poppins', 'Roboto', 'Baloo', sans-serif;
+}
+
+.wrapper{
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
