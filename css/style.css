@@ -136,6 +136,77 @@
   background-color: #c8f5e0;
 }
 
+.hero {
+  margin-top: 105px;
+}
+
+.hero__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__content {
+  max-width: 486px;
+}
+
+.hero__title {
+  font-family: 'Poppins';
+  font-size: 60px;
+  line-height: 72px;
+  color: #101130;
+  margin-bottom: 28px;
+}
+
+.hero__copy {
+  font-family: 'Roboto';
+  color: #606176;
+  font-weight: 400;
+}
+
+.copy1 {
+  max-width: 447px;
+  line-height: 32px;
+  font-size: 20px;
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+
+.hero__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 62px;
+  background-color: #3BB77E;
+  color: #FEF4F1;
+  text-decoration: none;
+  border-radius: 16px;
+  margin-bottom: 35px;
+}
+
+.copy2 {
+  font-size: 18px;
+}
+
+.copy2 a {
+  color: #2076FF;
+}
+
+.hero__img img {
+  width: 594px;
+  height: 560px;
+}
+
 *,
 *:before,
 *:after {
