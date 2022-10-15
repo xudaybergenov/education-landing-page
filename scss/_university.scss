@@ -1,0 +1,31 @@
+.university{
+  margin-top: 90px;
+}
+.university__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 141px;
+}
+// content
+.university__content{
+  max-width: 251px;
+  font-family: 'Inter';
+}
+.university__quantity{
+  font-weight: 700;
+  font-size: 62px;
+  color: #101131;
+}
+.university__copy{
+  margin-top: 10px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #606176;
+  font-size: 20px;
+}
+// image
+.university__img{
+  display: flex;
+  column-gap: 45px;
+}

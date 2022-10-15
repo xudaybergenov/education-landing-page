@@ -207,6 +207,50 @@
   height: 560px;
 }
 
+.university {
+  margin-top: 90px;
+}
+
+.university__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 141px;
+}
+
+.university__content {
+  max-width: 251px;
+  font-family: 'Inter';
+}
+
+.university__quantity {
+  font-weight: 700;
+  font-size: 62px;
+  color: #101131;
+}
+
+.university__copy {
+  margin-top: 10px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #606176;
+  font-size: 20px;
+}
+
+.university__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 45px;
+          column-gap: 45px;
+}
+
 *,
 *:before,
 *:after {
