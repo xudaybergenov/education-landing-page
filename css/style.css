@@ -324,6 +324,31 @@
   color: #606176;
 }
 
+.bootcamp {
+  padding-top: 130px;
+}
+
+.bootcamp__row {
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bootcamp__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bootcamp__title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: #101130;
+  font-size: 44px;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
 *,
 *:before,
 *:after {
