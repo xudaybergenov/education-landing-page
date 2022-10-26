@@ -6,8 +6,10 @@
   width: 100%;
   margin: 0 auto;
 }
+// bootcamp__content
 .bootcamp__content{
   display: flex;
+  justify-content: space-between;
 }
 .bootcamp__title{
   font-family: 'Poppins';
@@ -15,5 +17,97 @@
   color: #101130;
   font-size: 44px;
   line-height: 56px;
-  text-transform: capitalize;
+}
+.bootcamp__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #2076FF;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #2076FF;
+  margin-top: auto;
+}
+// lessonList
+.lessonList{
+  margin-top: 60px;
+}
+.lessonList__row{
+  display: flex;
+  justify-content: space-between;
+}
+.lessonList__item{
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  padding: 12px 16px 20px 14px;
+  box-shadow: 0 0 18px 2px rgba(233, 233, 233, 0.3);
+  border-radius: 12px;
+}
+.lessonList__img{
+  width: 240px;
+  height: 165px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.lessonList__title{
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #101130;
+  line-height: 26px;
+  margin-bottom: 38px;
+  letter-spacing: -1px;
+  flex-grow: 1;
+}
+.users{
+  display: flex;
+  column-gap: 18px;
+  margin-bottom: 25px;
+}
+.users__item{
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  width: 99px;
+  color: #606176;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px
+}
+.lessonList__item__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  width: 240px;
+  height: 40px;
+  border: 1px solid #2076FF;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.lessonList__item__btn:hover{
+  background-color: #2076FF;
+
+  &:hover .lessonList__item__btn__copy {
+     color: #fff;
+   }
+   &:hover path{
+    fill: #fff;
+   }
+}
+
+.lessonList__item__btn__copy{
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14px;
+  color: #2076FF;
 }
