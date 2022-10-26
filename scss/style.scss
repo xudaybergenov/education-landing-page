@@ -90,6 +90,7 @@
 @import './university';
 @import './service';
 @import './bootcamp';
+@import './features';
 
 *,
 *:before,
@@ -101,6 +102,8 @@
 
 body{
   font-family: 'Inter', 'Poppins', 'Roboto', 'Baloo', sans-serif;
+  color: #606176;
+  font-size: 18px;
 }
 
 .wrapper{
