@@ -627,6 +627,11 @@
   color: #101130;
 }
 
+.learner__row {
+  max-width: 1105px;
+  margin: 0 auto;
+}
+
 .learner__head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -645,6 +650,110 @@
   font-size: 44px;
   line-height: 56px;
   letter-spacing: -0.16px;
+}
+
+.learner__head__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 34px;
+          column-gap: 34px;
+}
+
+.learner__head__arrow path {
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.learner__head__arrow svg {
+  cursor: pointer;
+}
+
+.learner__head__arrow svg:hover path {
+  stroke: #606176;
+}
+
+.learner__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.learner__block {
+  max-width: 463px;
+}
+
+.learner__block__descr {
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.learner__block__copy {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #606176;
+  margin-bottom: 45px;
+}
+
+.learner__block__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 27px;
+          column-gap: 27px;
+  max-width: 226px;
+}
+
+.learner__block__user img {
+  width: 60px;
+  height: 60px;
+}
+
+.learner__block__user--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.leaner__name {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  margin-bottom: 4px;
+}
+
+.leaner__city {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #606176;
+  margin-bottom: 8px;
+}
+
+.learner__block__user--item img {
+  width: 79px;
+  height: 15px;
 }
 
 *,
