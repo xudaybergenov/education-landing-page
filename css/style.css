@@ -756,6 +756,213 @@
   height: 15px;
 }
 
+.price {
+  margin-top: 130px;
+  font-family: 'Inter';
+}
+
+.price-row {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.price-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.price-head--title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.16px;
+  color: #101130;
+}
+
+.price-head--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2076FF;
+  letter-spacing: -0.16px;
+  line-height: 21px;
+  text-decoration: none;
+  border-radius: 12px;
+  border: 1px solid #2076FF;
+}
+
+.price-head--link:hover {
+  color: #1a6aeb;
+  border: 1px solid #1a6aeb;
+}
+
+.price-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price-block {
+  max-width: 305px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.price-block1,
+.price-list--item:before {
+  background-color: #2076FF;
+}
+
+.price-block2,
+.price-list--item:before {
+  background-color: #F6C07A;
+}
+
+.price-block3,
+.price-list--item:before {
+  background-color: #3BB77E;
+}
+
+.price-main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.price-main-head--title {
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+  line-height: 38px;
+}
+
+.price-main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 487px;
+  padding: 40px 22px 22px;
+  background-color: #EDF3FF;
+}
+
+.price-content--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 44px;
+  line-height: 38px;
+  color: #101130;
+  margin-bottom: 40px;
+}
+
+.price-content--price span {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: -12px;
+}
+
+.price-list {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  list-style: none;
+}
+
+.price-list--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.price-list--item:before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+}
+
+.price-list--item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.price-list--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  border-radius: 14px;
+}
+
+.price-list--link1 {
+  color: #2076FF;
+  border: 1px solid #2076FF;
+}
+
+.price-list--link2 {
+  color: #F6C07A;
+  border: 1px solid #F6C07A;
+}
+
+.price-list--link3 {
+  color: #3BB77E;
+  border: 1px solid #3BB77E;
+}
+
 *,
 *:before,
 *:after {
